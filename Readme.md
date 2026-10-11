@@ -14,3 +14,13 @@
 
 Поэтому всякие картинки и не только [<kbd>тут</kbd>](https://drive.google.com/drive/folders/104OEKd1A5lOgtLLMHbTJluHU5x2gzA4v?usp=drive_link).
 Еще есть [вот это](https://www.youtube.com/@kexby_vbif).
+
+## Лабораторная работа №2. HTML и CSS
+
+Многостраничный сайт «Freeride Diary» об экстремальном велоспорте.
+
+- `lab2/index.html` — о моем увлечении
+- `lab2/history.html` — история велосипедного фрирайда
+- `lab2/rampage.html` — Red Bull Rampage
+- `lab2/css` — стили (попытался сделать что-то типа Redbull и Pinkbike)
+- `lab2/img` — картинки
