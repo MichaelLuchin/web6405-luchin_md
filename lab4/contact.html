@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Написать мне</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-header__logo" href="index.html">Freeride <span class="site-header__logo-accent">Diary</span></a>
+    <nav class="site-header__nav">
+      <a class="site-header__link" href="index.html">Обо мне</a>
+      <a class="site-header__link" href="history.html">История фрирайда</a>
+      <a class="site-header__link" href="rampage.html">Red Bull Rampage</a>
+      <a class="site-header__link site-header__link--current" href="contact.html">Написать мне</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__title">Написать <span class="hero__accent">мне</span></h1>
+      <p class="hero__text">Хочешь покататься вместе или спросить что-то про сайт — оставь сообщение.</p>
+    </div>
+  </section>
+
+  <main class="content">
+
+    <h2 class="section-title">Форма обратной связи</h2>
+    <form class="form" id="contact-form" action="/feedback" method="post">
+      <div class="form__field">
+        <label class="form__label" for="name">Имя</label>
+        <input class="form__control" type="text" id="name" name="name" autocomplete="name" required>
+      </div>
+      <div class="form__field">
+        <label class="form__label" for="email">Email</label>
+        <input class="form__control" type="email" id="email" name="email" autocomplete="email" required>
+      </div>
+      <div class="form__field">
+        <label class="form__label" for="topic">Тема</label>
+        <select class="form__control" id="topic" name="topic">
+          <option>Покататься вместе</option>
+          <option>Вопрос про фрирайд</option>
+          <option>Другое</option>
+        </select>
+      </div>
+      <div class="form__field">
+        <label class="form__label" for="message">Сообщение</label>
+        <textarea class="form__control form__control--area" id="message" name="message" rows="5" required></textarea>
+      </div>
+      <label class="form__agreement">
+        <input class="form__checkbox" type="checkbox" name="agreement" required>
+        Согласен на обработку персональных данных
+      </label>
+      <button class="button" type="submit">Отправить</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">Если вы правда прочитали до конца, то мне очень приятно)</footer>
+
+  <script src="js/feedback-request.js"></script>
+  <script src="js/contact-form.js"></script>
+</body>
+</html>
